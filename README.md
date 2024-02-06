@@ -20,7 +20,7 @@ To use the code provided, you need an API key from OpenAI. Set the API key as an
 
 The provided code consists of two functions for interacting with ChatGPT:
 
-1. `openai_client_chat(messages)`: This function uses the OpenAI Python client library to interact with the ChatGPT model. It sends messages to the model and retrieves responses using the OpenAI API.
+1. `openai_client_chat(messages_memory)`: This function uses the OpenAI Python client library to interact with the ChatGPT model. It sends messages to the model and retrieves responses using the OpenAI API.
 
 2. `http_request_chat(messages_memory)`: This function interacts with the ChatGPT model by making HTTP requests directly to the OpenAI API endpoint. It constructs HTTP requests with appropriate headers and parameters and handles the responses.
 
